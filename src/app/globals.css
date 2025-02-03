@@ -96,4 +96,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .navMain ul li a{
     color: #000;
   }
+
+  select {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    -ms-appearance: none; 
+    appearance: none;
+}
 }
