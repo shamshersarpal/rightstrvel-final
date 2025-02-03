@@ -4,7 +4,11 @@ import { useState } from "react";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header"; 
 
+
+
+  
 export default function SignUp() {
+    
     const [step, setStep] = useState(1);
 
     const nextStep = () => {

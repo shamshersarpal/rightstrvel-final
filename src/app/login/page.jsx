@@ -1,6 +1,12 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Link from "next/link";
+
+export const metadata = {
+    title: "Right travel | Login",
+    description: "Affordable Custom Tours, Private Trips and Vacation Packages",
+  };
+
 export default function LoginClient() {
     
     return (

@@ -1,6 +1,6 @@
  import "./globals.css";
-export const metadata = {
-  title: "Right travel",
+ export const metadata = {
+  title: "Right travel  ",
   description: "Affordable Custom Tours, Private Trips and Vacation Packages",
 };
 
