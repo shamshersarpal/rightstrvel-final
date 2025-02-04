@@ -10,46 +10,24 @@ export default function HeroSection() {
   ];
 
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
-  const [nextVideoIndex, setNextVideoIndex] = useState(1);
-  const [isFading, setIsFading] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setIsFading(true);
-      setTimeout(() => {
-        setCurrentVideoIndex(nextVideoIndex);
-        setNextVideoIndex((prev) => (prev + 1) % videos.length);
-        setIsFading(false);
-      }, 800); // Transition time should match CSS opacity transition duration
+      setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % videos.length);
     }, 10000);
 
     return () => clearInterval(interval);
-  }, [nextVideoIndex]);
+  }, []);
 
   return (
     <main>
-      <div className="relative overflow-hidden h-screen">
-        {/* First Video */}
+      <div className="relative overflow-hidden">
+
         <video
           key={videos[currentVideoIndex]}
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-800 ${
-            isFading ? "opacity-0" : "opacity-100"
-          }`}
+          className="min-w-full min-h-full absolute object-cover"
           src={videos[currentVideoIndex]}
-          type="video/mp4"
-          autoPlay
-          muted
-          loop
-        />
-
-        {/* Second Video (Preloaded) */}
-        <video
-          key={videos[nextVideoIndex]}
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-800 ${
-            isFading ? "opacity-100" : "opacity-0"
-          }`}
-          src={videos[nextVideoIndex]}
           type="video/mp4"
           autoPlay
           muted
@@ -58,6 +36,7 @@ export default function HeroSection() {
 
         <div className="py-60 bg-cover bg-center">
           <div className="absolute inset-0 bg-black opacity-50"></div>
+
           <div className="relative z-10 flex items-center justify-center h-full text-white">
             <div className="px-4 grid md:grid-cols-12 grid-cols-1 w-full max-w-screen-xl items-center mt-10 gap-[30px]">
               <div className="lg:col-span-8 md:col-span-7 md:order-1 order-2">
@@ -75,6 +54,7 @@ export default function HeroSection() {
                 </p>
               </div>
               <div className="lg:col-span-4 md:col-span-5 md:text-center md:order-2 order-1">
+
                 <button
                   onClick={() => setIsOpen(true)}
                   className="lg:h-24 h-20 lg:w-24 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white hover:bg-blue text-blue hover:text-white duration-500 ease-in-out mx-auto"
@@ -100,7 +80,7 @@ export default function HeroSection() {
           </div>
         </div>
 
-        {/* Video Modal */}
+
         {isOpen && (
           <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-95 z-50">
             <button
