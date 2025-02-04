@@ -27,14 +27,14 @@ export default function HeroSection() {
                 {/* YouTube Play Button */}
                 <button
                   onClick={() => setIsOpen(true)}
-                  className="lg:h-24 h-20 lg:w-24 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white hover:bg-blue text-blue hover:text-white duration-500 ease-in-out mx-auto"
+                  className="lg:h-24 h-20 lg:w-24 w-20 rounded-full shadow-lg dark:shadow-gray-800  flex items-center justify-center bg-white hover:bg-blue text-blue hover:text-white duration-500 ease-in-out mx-auto"
                 >
                   <svg
-                    className="w-10 h-10 text-blue-700"
+                    className="  text-blue-700 ps-1"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
-                    width={24}
-                    height={24}
+                    width={44}
+                    height={44}
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >

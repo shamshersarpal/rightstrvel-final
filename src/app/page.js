@@ -1,5 +1,6 @@
  
 
+import AppDownload from "@/components/AppDownload";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
@@ -17,7 +18,7 @@ export default function Home() {
     <Header/>
     <HeroSection/>
     <TourSlider/> 
-   
+   <AppDownload/>
     <Footer/>
     
     </>

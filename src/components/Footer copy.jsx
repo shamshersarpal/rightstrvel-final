@@ -10,11 +10,11 @@ import anniversarylogo from "@/images/anniversary_logo2025.png";
 export default function Footer() {
     return (
         <>
-            <section className="footer bg-white">
+            <section className="footer bg-gray-800">
                 <div className="container mx-auto ">
                     <>
    
-  <footer className="relative z-10   text-black  pt-10 pb-4   px-4  ">
+  <footer className="relative z-10   text-white  pt-10 pb-4   px-4  ">
     <div className="container mx-auto">
     <div className="grid grid-cols-12 max-w-screen-xl mx-auto">
   <div className="col-span-12">
@@ -22,18 +22,18 @@ export default function Footer() {
       <div className="grid md:grid-cols-12 grid-cols-1 gap-6">
         <div className="lg:col-span-3 md:col-span-12">
           <a href="#" className="text-[22px] focus:outline-none">
-            <Image className='logo bg-blue-800 rounded-full p-1' src={logo} alt=''/>
+            <Image src={logo} alt=''/>
           </a>
-          <p className="mt-6 text-black ">
+          <p className="mt-6 text-gray-300">
             When you think about taking a tour to any destination, each
             passenger has their own thoughts and desires about their trip.
           </p>
           <ul className="list-none mt-6">
-            <li className="inline me-1">
+            <li className="inline">
               <a
                 href=" "
                 target="_blank"
-                className="size-8 inline-flex items-center justify-center tracking-wide align-middle text-base border border-gray-800   rounded-md hover:bg-blue text-black "
+                className="size-8 inline-flex items-center justify-center tracking-wide align-middle text-base border border-gray-800 dark:border-slate-800 rounded-md hover:bg-blue hover:text-white text-slate-300"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -54,11 +54,11 @@ export default function Footer() {
                 </svg>
               </a>
             </li>
-            <li className="inline me-1">
+            <li className="inline">
               <a
                 href=" "
                 target="_blank"
-                className="size-8 inline-flex items-center justify-center tracking-wide align-middle text-base border border-gray-800   rounded-md hover:bg-blue text-black "
+                className="size-8 inline-flex items-center justify-center tracking-wide align-middle text-base border border-gray-800 dark:border-slate-800 rounded-md hover:bg-blue hover:text-white text-slate-300"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -77,11 +77,11 @@ export default function Footer() {
                 </svg>
               </a>
             </li>
-            <li className="inline me-1">
+            <li className="inline">
               <a
                 href=" "
                 target="_blank"
-                className="size-8 inline-flex items-center justify-center tracking-wide align-middle text-base border border-gray-800   rounded-md hover:bg-blue text-black "
+                className="size-8 inline-flex items-center justify-center tracking-wide align-middle text-base border border-gray-800 dark:border-slate-800 rounded-md hover:bg-blue hover:text-white text-slate-300"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -102,11 +102,11 @@ export default function Footer() {
                 </svg>
               </a>
             </li>
-            <li className="inline me-1">
+            <li className="inline">
               <a
                 href=" "
                 target="_blank"
-                className="size-8 inline-flex items-center justify-center tracking-wide align-middle text-base border border-gray-800   rounded-md hover:bg-blue text-black "
+                className="size-8 inline-flex items-center justify-center tracking-wide align-middle text-base border border-gray-800 dark:border-slate-800 rounded-md hover:bg-blue hover:text-white text-slate-300"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -125,11 +125,10 @@ export default function Footer() {
                 </svg>
               </a>
             </li>
-            <li className="inline me-1">
+            <li className="inline">
               <a
-                href=" "
-                target="_blank"
-                className="size-8 inline-flex items-center justify-center tracking-wide align-middle text-base border border-gray-800   rounded-md hover:bg-blue text-black "
+                href="  "
+                className="size-8 inline-flex items-center justify-center tracking-wide align-middle text-base border border-gray-800 dark:border-slate-800 rounded-md hover:bg-blue hover:text-white text-slate-300"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -153,10 +152,10 @@ export default function Footer() {
         </div>
         <div className="lg:col-span-3 md:col-span-4">
           <div className="lg:ms-8">
-            <h5 className="tracking-[1px] text-blue-700 font-semibold">
+            <h5 className="tracking-[1px] text-yellow-500 font-semibold">
               Office
             </h5>
-            <h5 className="tracking-[1px] text-black  mt-6">Right Travel</h5>
+            <h5 className="tracking-[1px] text-gray-100 mt-6">Right Travel</h5>
             <div className="flex mt-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -168,13 +167,13 @@ export default function Footer() {
                 strokeWidth={2}
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="feather feather-map-pin size-4 text-blue-700 me-2 mt-1"
+                className="feather feather-map-pin size-4 text-yellow-500 me-2 mt-1"
               >
                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
                 <circle cx={12} cy={10} r={3} />
               </svg>
               <div className="">
-                <h6 className="text-black ">
+                <h6 className="text-gray-300">
                   P.O. Box # 322 <br /> 5 Sicomac Rd, Suite 6
                   <br />
                   North Haledon, NJ 07508
@@ -192,7 +191,7 @@ export default function Footer() {
                 strokeWidth={2}
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="feather feather-mail size-4 text-blue-700 me-2 mt-1"
+                className="feather feather-mail size-4 text-yellow-500 me-2 mt-1"
               >
                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                 <polyline points="22,6 12,13 2,6" />
@@ -200,7 +199,7 @@ export default function Footer() {
               <div className="">
                 <a
                   href="mailto:sales@right-travel.com"
-                  className="text-black  hover:text-slate-400 duration-500 ease-in-out"
+                  className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out"
                 >
                   sales@right-travel.com
                 </a>
@@ -217,14 +216,14 @@ export default function Footer() {
                 strokeWidth={2}
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="feather feather-phone size-4 text-blue-700 me-2 mt-1"
+                className="feather feather-phone size-4 text-yellow-500 me-2 mt-1"
               >
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
               </svg>
               <div className="">
                 <a
                   href="tel:(973) 636-6660"
-                  className="text-black  hover:text-slate-400 duration-500 ease-in-out"
+                  className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out"
                 >
                   +1 (973) 636-6660
                 </a>
@@ -234,7 +233,7 @@ export default function Footer() {
         </div>
         <div className="lg:col-span-3 md:col-span-4">
           <div className="lg:ms-8">
-            <h5 className="tracking-[1px] text-blue-700 font-semibold">
+            <h5 className="tracking-[1px] text-yellow-500 font-semibold">
               Company
             </h5>
             <ul className="list-none footer-list mt-6">
@@ -242,7 +241,7 @@ export default function Footer() {
               <Link href="/login" passHref legacyBehavior>
                 <a
                  
-                  className="text-black  hover:text-gray-400 duration-500 ease-in-out"
+                  className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
                 >
                   <i className="mdi mdi-chevron-right" /> My Account
                 </a>
@@ -252,7 +251,7 @@ export default function Footer() {
               <Link href="/" passHref legacyBehavior>
                 <a
                   
-                  className="text-black  hover:text-gray-400 duration-500 ease-in-out"
+                  className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
                 >
                   <i className="mdi mdi-chevron-right" /> Travel Agents
                 </a>
@@ -262,7 +261,7 @@ export default function Footer() {
               <Link href="/" passHref legacyBehavior>
                 <a
                   
-                  className="text-black  hover:text-gray-400 duration-500 ease-in-out"
+                  className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
                 >
                   <i className="mdi mdi-chevron-right" /> Tours
                 </a>
@@ -272,7 +271,7 @@ export default function Footer() {
               <Link href="/" passHref legacyBehavior>
                 <a
                   
-                  className="text-black  hover:text-gray-400 duration-500 ease-in-out"
+                  className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
                 >
                   <i className="mdi mdi-chevron-right" /> Travel Insurance
                 </a>
@@ -282,7 +281,7 @@ export default function Footer() {
               <Link href="/" passHref legacyBehavior>
                 <a
                   
-                  className="text-black  hover:text-gray-400 duration-500 ease-in-out"
+                  className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
                 >
                   <i className="mdi mdi-chevron-right" /> Reviews
                 </a>
@@ -292,7 +291,7 @@ export default function Footer() {
               <Link href="/" passHref legacyBehavior>
                 <a
                    
-                  className="text-black  hover:text-gray-400 duration-500 ease-in-out"
+                  className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
                 >
                   <i className="mdi mdi-chevron-right" /> Contact
                 </a>
@@ -302,7 +301,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="lg:col-span-3 md:col-span-4">
-          <h5 className="tracking-[1px] text-blue-700 font-semibold">
+          <h5 className="tracking-[1px] text-yellow-500 font-semibold">
             Newsletter
           </h5>
           <p className="mt-6">Sign up and receive the latest tips via email.</p>
@@ -330,7 +329,7 @@ export default function Footer() {
                   </svg>
                   <input
                     type="email"
-                    className="ps-12 rounded w-full py-2 px-3 h-10 bg-gray-500 border-0 text-black  focus:shadow-none focus:ring-0 placeholder:text-gray-200 outline-none"
+                    className="ps-12 rounded w-full py-2 px-3 h-10 bg-gray-500 border-0 text-gray-100 focus:shadow-none focus:ring-0 placeholder:text-gray-200 outline-none"
                     placeholder="Email"
                     name="email"
                     required=""
@@ -365,7 +364,7 @@ export default function Footer() {
 </div>
 
 <div className="  pt-4 border-t  border-gray-700 mt-10">
-<div className="text-center text-sm text-black ">
+<div className="text-center text-sm text-white">
                         <p>© 2003-2025 Right Travel LLC. All rights reserved.</p>
                     </div>
             </div>
