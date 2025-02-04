@@ -34,7 +34,7 @@ export default function HeroSection() {
           loop
         />
 
-        <div className="py-60 bg-cover bg-center hero">
+        <div className="py-60 bg-cover bg-center">
           <div className="absolute inset-0 bg-black opacity-50"></div>
 
           <div className="relative z-10 flex items-center justify-center h-full text-white">
