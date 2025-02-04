@@ -110,7 +110,7 @@ import {
               </div>
            </CarouselItem>
         </CarouselContent>
-        <div className="block lg:hidden">
+        <div className="block lg:hidden sliderbtnMob">
            <CarouselPrevious className=""  />
            <CarouselNext />
         </div>

@@ -1,7 +1,7 @@
 export default function AppDownload(){
     return(
         <>
-            <div className="w-full max-w-screen-xl mx-auto p-4 text-center bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8  ">
+            <div className="w-full max-w-screen-xl mx-auto p-4 text-center border border-gray-200 rounded-lg shadow-sm sm:p-8 bg-gray-100 ">
   <h5 className="mb-2 text-3xl font-bold text-gray-900  ">
   Download Right Travel App
   </h5>
