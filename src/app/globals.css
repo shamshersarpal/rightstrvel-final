@@ -23,6 +23,12 @@ main {
   background-position: center;
   background-size: cover;
 }
+
+.botswanaours{
+  background-image: url("../images/a1.jpg");
+  background-position: center;
+  background-size: cover;
+}
 @layer base {
   :root { 
     --radius: 0.5rem;
