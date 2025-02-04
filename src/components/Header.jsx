@@ -195,7 +195,7 @@ export default function Header() {
             <Link href="/" passHref legacyBehavior>
               <a className="flex items-center space-x-3 rtl:space-x-reverse">
                 <Image
-                  className="logo bg-blue-800 rounded-full p-1"
+                  className="logo bg-blue-800 rounded-full"
                   src={logo}
                   alt=""
                 />
@@ -225,7 +225,7 @@ export default function Header() {
                 </svg>
               </button>
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-              <Image className="logo" src={anniversarylogo} alt="" />
+              <Image className="logo " src={anniversarylogo} alt="" />
               
             </div>
             <div

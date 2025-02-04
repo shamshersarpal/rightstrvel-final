@@ -21,9 +21,7 @@ export default function Footer() {
     <div className="py-[10px] px-0">
       <div className="grid md:grid-cols-12 grid-cols-1 gap-6">
         <div className="lg:col-span-3 md:col-span-12">
-          <a href="#" className="text-[22px] focus:outline-none">
-            <Image className='logo bg-blue-800 rounded-full p-1' src={logo} alt=''/>
-          </a>
+          
           <p className="mt-6 text-black ">
             When you think about taking a tour to any destination, each
             passenger has their own thoughts and desires about their trip.
