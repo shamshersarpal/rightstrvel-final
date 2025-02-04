@@ -8,6 +8,12 @@ import a3 from "@/images/a3.jpg"
 import a4 from "@/images/a4.jpg"
 import a5 from "@/images/a5.jpg"
 import AppDownload from "@/components/AppDownload";
+
+export const metadata = {
+    title: "Right travel | Africa Tours",
+    description: "Affordable Custom Tours, Private Trips and Vacation Packages",
+  };
+
 export default function africaTours() {
     return (
         <>

@@ -5,6 +5,12 @@ import Image from "next/image";
 import nyc from "@/images/nyc.jpg"
 import nyc2 from "@/images/nyc2.jpg"
 import AppDownload from "@/components/AppDownload";
+
+export const metadata = {
+  title: "Right travel | Botswana Tours",
+  description: "Affordable Custom Tours, Private Trips and Vacation Packages",
+};
+
 export default function africaTours() {
   return (
     <>
