@@ -21,7 +21,7 @@ export default function HeroSection() {
         setCurrentVideoIndex(nextVideoIndex);
         setNextVideoIndex((prev) => (prev + 1) % videos.length);
         setIsFading(false);
-      }, 800); // Transition time should match CSS opacity transition duration
+      }, 800);  
     }, 10000);
 
     return () => clearInterval(interval);
@@ -30,7 +30,7 @@ export default function HeroSection() {
   return (
     <main>
       <div className="relative overflow-hidden h-screen">
-        {/* First Video */}
+        
         <video
           key={videos[currentVideoIndex]}
           className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-800 ${
@@ -43,7 +43,7 @@ export default function HeroSection() {
           loop
         />
 
-        {/* Second Video (Preloaded) */}
+      
         <video
           key={videos[nextVideoIndex]}
           className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-800 ${
@@ -100,7 +100,7 @@ export default function HeroSection() {
           </div>
         </div>
 
-        {/* Video Modal */}
+        
         {isOpen && (
           <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-95 z-50">
             <button
