@@ -1,5 +1,3 @@
- 
-
 {
   "name": "rightstrvel",
   "version": "0.1.0",
@@ -19,7 +17,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",
-    "date-fns": "^2.29.3",
+    "date-fns": "^4.1.0",
     "embla-carousel-react": "^8.5.2",
     "flatpickr": "^4.6.13",
     "flowbite": "^3.0.0",
