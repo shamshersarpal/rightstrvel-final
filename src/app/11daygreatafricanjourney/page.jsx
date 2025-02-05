@@ -8,7 +8,7 @@ import Image from 'next/image';
 export default function africaTours() {
 return (
 <>
-<Header />    
+<Header />      
 <main>
    <section className="bg-center bg-no-repeat botswanaours relative">
       <div className="absolute inset-0 bg-black opacity-40"></div>
