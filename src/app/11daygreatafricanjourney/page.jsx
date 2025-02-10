@@ -17,22 +17,22 @@ return (
    <div className="text-center max-w-screen-xl mx-auto  border shadow-sm border-gray-300 py-4 mt-4 w-full sticky top-[0px] bg-gray-100 z-40 ">
          <div className="flex items-center justify-center lg:gap-10 gap-3 lg:px-0 px-4">
              
-              <a  href="#summary">  <div className='font-[500] lg:text-[18px] text-[15px] cursor-pointer hover:text-blue-700 uppercase'>
+              <a  href="#summary">  <div className='font-[500] lg:text-[16px] text-[15px] cursor-pointer hover:text-blue-700 uppercase'>
                Summary
                </div>
                   </a>
 
-                  <a  href="#PriceIncludes">  <div className='font-[500] lg:text-[18px] text-[15px] cursor-pointer hover:text-blue-700 uppercase'>
+                  <a  href="#PriceIncludes">  <div className='font-[500] lg:text-[16px] text-[15px] cursor-pointer hover:text-blue-700 uppercase'>
                Price Includes
                </div>
                   </a>
                   <a  href="#SpecialFeatures">
-                      <div className='font-[500] lg:text-[18px] text-[15px] cursor-pointer hover:text-blue-700 uppercase'>
+                      <div className='font-[500] lg:text-[16px] text-[15px] cursor-pointer hover:text-blue-700 uppercase'>
                         Special Features
                         </div>
                         </a>
                         <a  href="#DayItinerary">
-                           <div className='font-[500] lg:text-[18px] text-[15px] cursor-pointer hover:text-blue-700 uppercase'>
+                           <div className='font-[500] lg:text-[16px] text-[15px] cursor-pointer hover:text-blue-700 uppercase'>
                               Day Itinerary
                               </div>
                               </a>
