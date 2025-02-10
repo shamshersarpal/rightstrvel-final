@@ -115,3 +115,21 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     appearance: none;
 }
 }
+
+@media only screen and (max-width: 768px) {
+  .ss7 {
+    grid-column: span 12 / 13;
+}
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#PriceIncludes, #SpecialFeatures, #DayItinerary {
+  scroll-margin-top: 70px;  
+}
+
+#summary{
+  scroll-margin-top: 140px;  
+}

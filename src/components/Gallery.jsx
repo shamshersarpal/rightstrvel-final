@@ -39,7 +39,7 @@ export default function AfricaTours() {
                     {images.map((image, index) => (
                         <div 
                             key={index} 
-                            className={`md:col-span-${index % 2 === 0 ? 8 : 4} col-span-6  `}
+                            className={`md:col-span-${index % 2 === 0 ? 8 : 4} col-span-8 ss7`}
                         >
                             <div 
                                 className="group relative overflow-hidden rounded shadow cursor-pointer"

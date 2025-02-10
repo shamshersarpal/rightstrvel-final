@@ -355,11 +355,11 @@ export default function Footer() {
                            
 
 <div className="flex mt-5  items-center gap-3 justify-center">
-  <Image src={iatanlogo} alt='' width={60}/>
-  <Image src={astalogo} alt='' width={60}/>
-  <Image src={anniversarylogo} alt='' width={60}/> 
-  <Image src={clialogo} alt='' width={60}/> 
-  <Image src={trustpilot} alt='' width={60}/> 
+  <Image src={iatanlogo} alt='' width={80}/>
+  <Image src={astalogo} alt='' width={80}/>
+  <Image src={anniversarylogo} alt='' width={80}/> 
+  <Image src={clialogo} alt='' width={80}/> 
+  <Image src={trustpilot} alt='' width={80}/> 
 </div>
 
 <div className="  pt-4 border-t  border-gray-700 mt-10">
